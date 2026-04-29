@@ -1,0 +1,25 @@
+name: "QwenPaw"
+version: "1.2.0"
+slug: qwenpaw
+description: "QwenPaw AI Assistant - personalnyj AI-assistent s Web UI. Podderzhivaet OpenAI, Qwen/DashScope, Gemini, Ollama, Telegram, Discord i drugie kanaly."
+url: "https://github.com/agentscope-ai/QwenPaw"
+arch:
+  - amd64
+  - aarch64
+startup: application
+boot: auto
+init: false
+webui: "http://[HOST]:[PORT:8088]"
+ports:
+  8088/tcp: 8088
+ports_description:
+  8088/tcp: "QwenPaw Web UI"
+map:
+  - addon_config:rw
+  - share:rw
+options:
+  qwenpaw_port: 8088
+  auth_enabled: false
+schema:
+  qwenpaw_port: int
+  auth_enabled: bool
