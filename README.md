@@ -10,7 +10,7 @@
 
 ## Screenshot / Скриншот
 
-![QwenPaw in Home Assistant](screenshot.png)
+![QwenPaw in Home Assistant](screenshot.jpg)
 
 ## Features / Возможности
 
