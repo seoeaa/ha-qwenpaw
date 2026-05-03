@@ -1,5 +1,5 @@
 name: "QwenPaw"
-version: "1.2.0"
+version: "1.1.5.post1"
 slug: qwenpaw
 description: "QwenPaw AI Assistant - personalnyj AI-assistent s Web UI. Podderzhivaet OpenAI, Qwen/DashScope, Gemini, Ollama, Telegram, Discord i drugie kanaly."
 url: "https://github.com/agentscope-ai/QwenPaw"
